@@ -40,7 +40,7 @@
     "@typescript-eslint/no-use-before-define": "off",
     "@typescript-eslint/no-explicit-any": "error",
     "react/prop-types": "off",
-    "no-console": ["error", {"allow": ["warn", "error"]}],
+    "no-console": ["error", { "allow": ["warn", "error"] }],
     "@typescript-eslint/no-unused-vars": [
       "error",
       {
@@ -57,6 +57,8 @@
     "import/first": "error",
     "import/newline-after-import": "error",
     "import/no-duplicates": "error",
+    "react/jsx-uses-react": "off",
+    "react/react-in-jsx-scope": "off",
     "simple-import-sort/exports": "error",
     "simple-import-sort/imports": [
       "error",
@@ -69,7 +71,8 @@
           ["^\\./(?=.*/)(?!/?$)", "^\\.(?!/?$)", "^\\./?$"]
         ]
       }
-    ]
+    ],
+    "prettier/prettier": ["error", { "bracketSpacing": "1" }]
   },
   "overrides": [
     {
